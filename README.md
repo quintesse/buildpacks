@@ -1,3 +1,5 @@
+*DEPRECATED*: Work has moved to https://github.com/quarkusio/quarkus-buildpacks
+
 # Buildpacks
 
 Just some buildpacks I'm working on.
