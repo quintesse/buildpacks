@@ -1,5 +1,3 @@
-*DEPRECATED*: Work has moved to https://github.com/quarkusio/quarkus-buildpacks
-
 # Buildpacks
 
 Just some buildpacks I'm working on.
@@ -17,6 +15,8 @@ pack build jbang-test-app --path ./jbang-sample-app --buildpack ./jbang-buildpac
 ```
 
 ## Quarkus
+
+*DEPRECATED*: Work has moved to https://github.com/quarkusio/quarkus-buildpacks
 
 To test the buildpack for [Quarkus](https://quarkus.io) run this:
 
