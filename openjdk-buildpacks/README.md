@@ -2,17 +2,17 @@
 
 This are some WIP build stacks for building Java applications using supported images like Red Hat OpenJDK.
 
-To use buildpacks you'll need `pack`, see the instructions here on how to install it:
+## Prerequisites
 
-https://buildpacks.io/docs/tools/pack/
+To use buildpacks the `pack` command is needed, see the instructions here on how to install it: https://buildpacks.io/docs/tools/pack/
 
+MacOS users will also need to install `coreutils` using something like `brew install coreutils`.
 
-## Installation
+## Creating Buildpacks
 
 To install the build packs run clone this repo and run the `create-buildpacks.sh` script.
 
-
-## OpenJDK
+## How to build for OpenJDK
 
 To test the buildpack for OpenJDK run this:
 
@@ -20,7 +20,7 @@ To test the buildpack for OpenJDK run this:
 pack build openjdk-jvm-test-app --path apps/java-sample-app --builder redhat/buildpacks-builder-openjdk-jvm:latest
 ```
 
-## Running
+## Running the Image
 
 After having built the image with one of the commands above you can simply run them, eg:
 
