@@ -1,5 +1,7 @@
 # OpenJDK Buildpacks
 
+*DEPRECATED*: Work has moved to https://github.com/redhat-buildpacks/openjdk-buildpack
+
 This are some WIP build stacks for building Java applications using supported images like Red Hat OpenJDK.
 
 ## Prerequisites
